@@ -7,6 +7,8 @@
     "react-router-dom": "^6.23.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "internet -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
